@@ -1,16 +1,16 @@
 # Site settings
-name: Brittany Chiang
-title: Brittany Chiang | Front End Software Engineer
+name: Chaeyeon Lim
+title: Chaeyeon Lim
 description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://bchiang7.github.io/
+url: https://chaeyeonss.github.io/
 baseurl: ''
-email: brittany.chiang@gmail.com
+email: chaeyeon@gm.gist.ac.kr
 cover: https://bchiang7.github.io/img/og.png
 logo: https://bchiang7.github.io/img/emojis/technologist.png
 resume: https://bchiang7.github.io/resume.pdf
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
+    url: mailto:chaeyeon@gm.gist.ac.kr
   - title: twitter
     url: https://twitter.com/bchiang7
   - title: instagram
