@@ -264,11 +264,9 @@ strong {
     }
 }
 
-@media screen and (max-width:480px) {
-    .section__content {
-        padding-left: 30px
-    }
-}
+/*@media screen and (max-width:480px) {
+    .section__content {}
+}*/
 
 .section__content p {
     margin-top: 0;
