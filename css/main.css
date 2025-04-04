@@ -260,7 +260,6 @@ strong {
 @media screen and (max-width:768px) {
     .section__content {
         padding-top: 30px;
-        padding-left: 50px
     }
 }
 
@@ -484,7 +483,7 @@ strong {
 
 .intro {
     padding: 120px 100px;
-    height: 30vh;
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -516,16 +515,68 @@ strong {
     }
 }
 
+/* 기본: 데스크탑용 (가로) */
+.intro__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.intro__text {
+    flex: 1;
+}
+
+.intro__photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* 데스크탑: 높이 = 텍스트 블록 높이 */
+@media screen and (min-width: 769px) {
+    .intro__photo {
+        height: 100%;
+        max-height: 300px;
+        width: auto;
+    }
+
+    .intro__wrapper {
+        align-items: stretch;
+        /* 사진과 텍스트 높이 맞춤 */
+    }
+}
+
+/* 모바일: 세로형 레이아웃 */
+@media screen and (max-width: 768px) {
+    .intro__wrapper {
+        display: block;
+        /* 사진과 텍스트가 세로로 쌓이게 */
+    }
+
+    .intro__photo {
+        display: block;
+        width: 100%;
+        /* 텍스트 폭과 동일 */
+        height: auto;
+        /* 비율 유지 */
+        margin-bottom: 20px;
+    }
+}
+
 .intro__hello,
 .intro__tagline {
-    font-size: 2.5rem
+    font-size: 1.5rem
 }
 
 @media screen and (max-width:1024px) {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 2.25rem
+        font-size: 1.35rem
     }
 }
 
@@ -533,7 +584,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 2rem
+        font-size: 1.2rem
     }
 }
 
@@ -541,7 +592,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.75rem
+        font-size: 1rem
     }
 }
 
@@ -549,7 +600,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.5rem
+        font-size: 0.9rem
     }
 }
 
@@ -557,7 +608,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.4rem
+        font-size: 0.85rem
     }
 }
 
@@ -704,7 +755,7 @@ strong {
 }
 
 .intro__contact {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400
 }
 
