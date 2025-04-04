@@ -91,7 +91,7 @@ html {
     background-color: #fff;
     color: #444452;
     font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.4;
     width: 100%
 }
 
@@ -152,7 +152,7 @@ a {
     transition: all .2s ease-in-out;
     text-decoration: none;
     font-weight: 700;
-    color: inherit
+    color: inherit;
 }
 
 ul {
@@ -482,7 +482,7 @@ strong {
 }
 
 .intro {
-    padding: 120px 100px;
+    padding: 120px 170px 0;
 
     display: -webkit-box;
     display: -ms-flexbox;
@@ -499,19 +499,19 @@ strong {
 
 @media screen and (max-width:630px) {
     .intro {
-        padding: 120px 70px
+        padding: 120px 70px 0
     }
 }
 
 @media screen and (max-width:550px) {
     .intro {
-        padding: 120px 50px
+        padding: 120px 50px 0
     }
 }
 
 @media screen and (max-width:480px) {
     .intro {
-        padding: 70px 50px
+        padding: 70px 50px 0
     }
 }
 
@@ -569,14 +569,14 @@ strong {
 
 .intro__hello,
 .intro__tagline {
-    font-size: 1.5rem
+    font-size: 1rem
 }
 
 @media screen and (max-width:1024px) {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.35rem
+        font-size: 1rem;
     }
 }
 
@@ -584,7 +584,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 1.2rem
+        font-size: 1rem
     }
 }
 
@@ -600,7 +600,7 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 0.9rem
+        font-size: 1rem
     }
 }
 
@@ -608,22 +608,22 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-        font-size: 0.85rem
+        font-size: 0.9rem
     }
 }
 
 .intro__hello .emoji,
 .intro__tagline .emoji {
-    width: 40px;
-    height: 40px
+    width: 18px;
+    height: 18px
 }
 
 @media screen and (max-width:1024px) {
 
     .intro__hello .emoji,
     .intro__tagline .emoji {
-        width: 35px;
-        height: 35px
+        width: 18px;
+        height: 18px
     }
 }
 
@@ -631,8 +631,8 @@ strong {
 
     .intro__hello .emoji,
     .intro__tagline .emoji {
-        width: 30px;
-        height: 30px
+        width: 18px;
+        height: 18px
     }
 }
 
@@ -640,13 +640,13 @@ strong {
 
     .intro__hello .emoji,
     .intro__tagline .emoji {
-        width: 25px;
-        height: 25px
+        width: 18px;
+        height: 18px
     }
 }
 
 .intro__hello {
-    font-weight: 300
+    font-weight: 700
 }
 
 .intro__hello .wave-hand {
@@ -743,7 +743,7 @@ strong {
 
 .intro__tagline {
     font-weight: 300;
-    max-width: 700px
+    max-width: 800px
 }
 
 .intro__tagline .name {
@@ -775,8 +775,8 @@ strong {
 
 @media screen and (max-width:550px) {
     .intro__contact .emoji.pointer {
-        width: 25px;
-        height: 25px
+        width: 18px;
+        height: 18px
     }
 }
 
@@ -788,8 +788,8 @@ strong {
     display: inline-block;
     padding: 2px 3px;
     text-decoration: none;
-    -webkit-box-shadow: inset 0 -3px 0 #007bff;
-    box-shadow: inset 0 -3px 0 #007bff
+    -webkit-box-shadow: inset 0 -1px 0 #007bff;
+    box-shadow: inset 0 -1px 0 #007bff
 }
 
 .intro__contact .highlight-link:hover {
@@ -1131,8 +1131,8 @@ strong {
 }
 
 .footer__copyright {
-    font-weight: 700;
-    width: 200px
+    font-size: 0.8rem;
+    width: 600px
 }
 
 @media screen and (max-width:630px) {
