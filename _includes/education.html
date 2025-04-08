@@ -1,0 +1,30 @@
+<section class="section education">
+  <div class="section__title">Education</div>
+  <div class="section__content">
+    <div class="schools">
+      {% for edu in site.data.education %}
+      <div class="school">
+        <div class="school__degree">{{edu.degree}}</div>
+        <div class="time-place">
+          <div class="school__name">
+            {{edu.school}}
+          </div>
+          <div class="school__period">{{edu.period}}</div>
+        </div>
+
+        {% if edu.details %}
+        <div>
+          <ul>
+            {% for line in edu.details | newline_to_br | split: '<br />' %}
+            <li>{{ line }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a>
+  </div>
+</section>
