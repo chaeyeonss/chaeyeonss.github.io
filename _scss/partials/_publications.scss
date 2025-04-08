@@ -1,5 +1,5 @@
-.other-projects {
-  .project {
+.publications {
+  .publication {
     max-width: 600px;
     margin-bottom: 50px;
 
@@ -7,9 +7,15 @@
       margin-bottom: 10px;
     }
 
-    p {
+    &__author {
       font-size: 0.9rem;
-      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+
+    &__venue {
+      font-size: 0.9rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
 
     &__used {

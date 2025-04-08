@@ -1,12 +1,12 @@
 <section class="section experience">
-  <div class="section__title">Experience</div>
+  <div class="section__title">Education</div>
   <div class="section__content">
     <div class="jobs">
       {% for job in site.data.experience %}
       <div class="job">
         <div class="time-place">
           <div class="job__company">
-            <a href="{{job.url}}" target="_blank">{{job.company}}</a>
+            {{job.company}}
           </div>
           <div class="job__time">{{job.time}}</div>
         </div>

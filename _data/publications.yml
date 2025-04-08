@@ -1,0 +1,19 @@
+- name: 논문명
+  author: 저자명
+  venue: 게재처
+  doi: #
+  field:
+    - thing: 관련
+    - thing: 있는
+    - thing: 분야
+    - thing: 필드
+
+- name: 논문명
+  author: 저자명, <a class="underline-link">저자명</a>, 저자명, 저자명
+  venue: 게재처
+  doi: #
+  field:
+    - thing: 관련
+    - thing: 있는
+    - thing: 분야
+    - thing: 필드

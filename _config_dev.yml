@@ -2,20 +2,20 @@
 name: Brittany Chiang
 title: Brittany Chiang | Front End Software Engineer
 description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://bchiang7.github.io/
+url: https://chaeyeonss.github.io/
 baseurl: ''
-email: brittany.chiang@gmail.com
-cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+email: chaeyeon@gm.gist.ac.kr
+cover: https://chaeyeonss.github.io/img/og.png
+logo: https://chaeyeonss.github.io/img/emojis/technologist.png
+resume: https://chaeyeonss.github.io/resume.pdf
 social:
   - title: email
     url: mailto:chaeyeon@gm.gist.ac.kr
-  - title: acm
+  - title: twitter
     url: https://twitter.com/bchiang7
-  - title: ocid
+  - title: instagram
     url: https://instagram.com/bchiang7
-  - title: google_scholar
+  - title: codepen
     url: http://codepen.io/bchiang7
   - title: github
     url: https://github.com/bchiang7

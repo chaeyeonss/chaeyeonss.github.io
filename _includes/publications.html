@@ -1,0 +1,19 @@
+<section class="section publications">
+  <div class="section__title">Publications</div>
+  <div class="section__content">
+    {% for publication in site.data.publications %}
+    <div class="publication">
+      <div class="publication__name">
+        <a href="{{publication.doi}}" target="_blank" class="arrow-link">{{publication.name}}</a>
+      </div>
+      <div class="publication__author">{{publication.author}}</div>
+      <div class="publication__venue">{{publication.venue}}</div>
+      <div class="publication__used">
+        {% for item in publication.field %}
+        <span class="publication__used__item">{{item.thing}}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

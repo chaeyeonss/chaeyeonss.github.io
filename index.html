@@ -5,13 +5,16 @@ layout: default
 <div id="site">
   {% include switch.html %}
   {% include intro.html %}
+  {% include experience.html %}
+  {% comment %}
+    {% include publications.html %}
+  {% endcomment %}
   {% include other-projects.html %}
   {% comment %}
     {% include background.html %}
-    {% include skills.html %}
-    {% include experience.html %}
     {% include featured-projects.html %}
   {% endcomment %}
+  {% include skills.html %}
   {% include footer.html %}
   {% include top-button.html %}
 </div>
