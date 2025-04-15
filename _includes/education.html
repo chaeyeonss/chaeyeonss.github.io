@@ -14,9 +14,9 @@
 
         {% if edu.details %}
         <div>
-          <ul>
+          <ul class="details">
             {% for line in edu.details | newline_to_br | split: '<br />' %}
-            <li>{{ line }}</li>
+            <li class="detail">{{ line }}</li>
             {% endfor %}
           </ul>
         </div>
