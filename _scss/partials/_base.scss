@@ -136,10 +136,8 @@ strong {
     max-width: 650px;
     @include tablet {
       padding-top: 30px;
-      padding-left: 50px;
     }
     @include mobile {
-      padding-left: 30px;
     }
     p {
       margin-top: 0;
