@@ -20,7 +20,7 @@ module.exports = gulp => {
   };
   // run `jekyll build`
   gulp.task('jekyll-build', done => {
-    return cp.spawn(jekyll, ['build'], { stdio: 'inherit' }).on('close', done);
+    return cp.spawn(jekyll, ['build'], { stdio: 'inherit', shell: true }).on('close', done);
   });
 
   // run `jekyll build` with _config_dev.yml

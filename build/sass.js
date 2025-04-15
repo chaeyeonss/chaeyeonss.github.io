@@ -1,4 +1,4 @@
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const prefix = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 
@@ -11,7 +11,7 @@ module.exports = gulp => {
       .src(scssPath)
       .pipe(
         sass({
-          includePaths: ['scss'],
+          includePaths: ['_scss', '_scss/partials'],
           outputStyle: 'expanded',
         })
       )
